@@ -63,7 +63,8 @@ export default function LandingPage() {
           phoneOne={{ imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763848638519-wjadx7cy.jpg" }}
           phoneTwo={{ imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763848639235-zk6z7u4q.jpg" }}
           buttons={[
-            { text: "Learn More", href: "#" }
+            { text: "Learn More", href: "#" },
+            { text: "Book Now", href: "contact" }
           ]}
         />
       </div>
